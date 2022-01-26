@@ -1,5 +1,3 @@
-'''
-
 # square pattern
 n = 5
 for i in range(n):
@@ -21,8 +19,6 @@ for i in range(n):
         print("* ", end='')
     print()
 print("----------------------------")
-
-
 # Right sided triangle
           *
         * *
@@ -36,7 +32,6 @@ for i in range(n):
     for k in range(i+1):
         print("*",end=" ")
     print()
-
 # Right Sided triangle:
   * * * * *
     * * * *
@@ -50,7 +45,6 @@ for i in range(n):
     for k in range(i, n): # dec star
         print("*", end=" ")
     print()
-
 # Hill pattern
 n = 5
 for i in range(n):
@@ -72,7 +66,6 @@ for i in range(n):
     for m in range(i, n):
         print("*", end=' ')
     print()
-
 #Diamond pattern
           *
         * * *
@@ -83,7 +76,6 @@ for i in range(n):
       * * * * *
         * * *
           *
-
 n = 5
 for i in range(n-1):
     for j in range(i, n):
@@ -101,7 +93,6 @@ for i in range(n):
     for m in range(i, n):
         print("*", end=' ')
     print()
-
 # Pyramid
 n = 5
 for i in range(n):
@@ -122,8 +113,6 @@ for i in range(n):
     for m in range(i+1):
         print(" ", end=' ')
     print()
-
-
 # sandglass
     *  *  *  *
      *  *  *
@@ -168,51 +157,3 @@ for i in range(n):
     for m in range(i+1):
         print("*", end=' ')
     print()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
